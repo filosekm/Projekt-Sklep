@@ -4,9 +4,9 @@
     <form method="post" action="{{ route('register.perform') }}">
 
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-        <img class="mb-4" src="{!! url('images/bootstrap-logo.svg') !!}" alt="" width="72" height="57">
+        <img class="mb-4" src="{!! url('https://i.pinimg.com/originals/47/ba/ed/47baed009803ac8f340d9f92abd58e94.png') !!}" alt="" width="72" height="57">
 
-        <h1 class="h3 mb-3 fw-normal">Register</h1>
+        <h1 style="color:white" class="h3 mb-3 fw-normal">Register</h1>
 
         <div class="form-group form-floating mb-3">
             <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="name@example.com" required="required" autofocus>

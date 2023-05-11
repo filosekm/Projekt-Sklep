@@ -1,14 +1,12 @@
-@extends('layouts.app-master')
+@include('layouts.partials.navbar')
 
-@section('content')
-    <div class="bg-light p-5 rounded">
-        @auth
+@auth
+    <div id="app"></div>
 
-        @endauth
+@endauth
 
-        @guest
+@guest
+    <div id="app"></div>
+@endguest
 
-        @endguest
-    </div>
-
-@endsection
+<script type="text/javascript" src="{{ mix('js/app.js') }}"> </script>
