@@ -1,0 +1,193 @@
+.silnik-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1a283a;
+}
+.silnik-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #1a283a;
+}
+.silnik-navlink {
+  display: contents;
+}
+.silnik-image {
+  width: 182px;
+  height: 145px;
+  text-decoration: none;
+}
+.silnik-nav {
+  display: flex;
+  position: relative;
+}
+.silnik-navigation-links {
+  text-decoration: none;
+}
+.silnik-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.silnik-login {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.silnik-burger-menu {
+  display: none;
+}
+.silnik-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.silnik-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.silnik-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.silnik-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.silnik-image1 {
+  height: 2rem;
+}
+.silnik-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.silnik-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.silnik-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.silnik-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.silnik-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.silnik-footer {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a283a;
+}
+.silnik-image2 {
+  width: 229px;
+  height: 177px;
+  object-fit: cover;
+}
+.silnik-text {
+  color: #ffffff;
+}
+.silnik-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.silnik-icon10 {
+  fill: #D9D9D9;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.silnik-icon12 {
+  fill: #D9D9D9;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.silnik-icon14 {
+  fill: #D9D9D9;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+@media(max-width: 767px) {
+  .silnik-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .silnik-nav {
+    display: none;
+  }
+  .silnik-btn-group {
+    display: none;
+  }
+  .silnik-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .silnik-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .silnik-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .silnik-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .silnik-icon {
+    fill: #ffffff;
+  }
+  .silnik-mobile-menu {
+    padding: 16px;
+  }
+  .silnik-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .silnik-image2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .silnik-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
