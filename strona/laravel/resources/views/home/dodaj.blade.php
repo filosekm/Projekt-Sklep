@@ -90,10 +90,10 @@
                         <option value="Opony">Opony</option>
                         <option value="Silnik">Silnik</option>
                         <option value="zawieszenie">Zawieszenie</option>
-                        <option value="skrzynia_biegów">Skrzynia biegów</option>
+                        <option value="skrzynia_biegow">Skrzynia biegów</option>
                     </select>
                 </div>
-                <button type="submit">Dodaj rekord</button>
+                <button type="submit">Dodaj rekord</button>ó
             </form>
 
 

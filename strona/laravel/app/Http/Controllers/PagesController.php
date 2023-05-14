@@ -59,7 +59,7 @@ class PagesController extends Controller
 
     public function skrzynia()
     {
-        $kategorie = ['Skrzynia biegów'];
+        $kategorie = ['Skrzynia_biegów'];
 
         $skrzynia = DB::table('czesc_samochodowa')
             ->whereIn('Kategoria', $kategorie)
