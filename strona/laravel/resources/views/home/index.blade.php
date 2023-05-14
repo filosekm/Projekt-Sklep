@@ -49,6 +49,7 @@
                 @auth
                     {{auth()->user()->name}}
                     <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="{{ route('logout.perform') }}">Logout</a></div>
+                    <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="/dodaj">Dodaj rekord</a></div>
                 @endauth
                 @guest
                     <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="{{ route('login.perform') }}">Login</a></div>

@@ -7,7 +7,7 @@
     <meta name="description" content="">
 
 
-    <title>Kontakt</title>
+    <title>Dodaj rekord</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">

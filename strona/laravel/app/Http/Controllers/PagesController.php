@@ -31,7 +31,7 @@ class PagesController extends Controller
     {
         $kategorie = ['Opony'];
 
-        $opony = DB::table('część samochodowa')
+        $opony = DB::table('czesc_samochodowa')
             ->whereIn('Kategoria', $kategorie)
             ->get();
         return view('home.opony', compact('opony'));
@@ -41,7 +41,7 @@ class PagesController extends Controller
     {
         $kategorie = ['Silnik'];
 
-        $silnik = DB::table('część samochodowa')
+        $silnik = DB::table('czesc_samochodowa')
             ->whereIn('Kategoria', $kategorie)
             ->get();
         return view('home.silnik', compact('silnik'));
@@ -51,7 +51,7 @@ class PagesController extends Controller
     {
         $kategorie = ['Zawieszenie'];
 
-        $zawieszenie = DB::table('część samochodowa')
+        $zawieszenie = DB::table('czesc_samochodowa')
             ->whereIn('Kategoria', $kategorie)
             ->get();
         return view('home.zawieszenie', compact('zawieszenie'));
@@ -61,7 +61,7 @@ class PagesController extends Controller
     {
         $kategorie = ['Skrzynia biegów'];
 
-        $skrzynia = DB::table('część samochodowa')
+        $skrzynia = DB::table('czesc_samochodowa')
             ->whereIn('Kategoria', $kategorie)
             ->get();
         return view('home.skrzynia-biegow', compact('skrzynia'));

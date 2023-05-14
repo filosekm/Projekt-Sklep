@@ -8,7 +8,7 @@
     <meta name="description" content="">
 
 
-    <title>Opony</title>
+    <title>Skrzynia biegów</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -65,7 +65,7 @@
 
     <div class="container">
         <div class="mbr-section-head">
-            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Dostępne części z kategori Opony:</strong></h4>
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Dostępne części z kategori Skrzynia biegów:</strong></h4>
             <br></br>
             @if ($skrzynia->count() > 0)
                 <table class="table table-bordered mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
@@ -77,10 +77,10 @@
                     </tr>
                     @foreach ($skrzynia as $czesc)
                         <tr>
-                            <td>{{ $czesc->Nazwa }}</td>
-                            <td>{{ $czesc->Producent }}</td>
-                            <td>{{ $czesc->Numer_seryjny }}</td>
-                            <td>{{ $czesc->Ilość }}</td>
+                            <td>{{ $czesc->nazwa }}</td>
+                            <td>{{ $czesc->producent }}</td>
+                            <td>{{ $czesc->numer_seryjny }}</td>
+                            <td>{{ $czesc->ilosc }}</td>
                         </tr>
                     @endforeach
                 </table>

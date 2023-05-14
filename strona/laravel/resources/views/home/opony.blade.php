@@ -77,10 +77,10 @@
                     </tr>
                     @foreach ($opony as $czesc)
                         <tr>
-                            <td>{{ $czesc->Nazwa }}</td>
-                            <td>{{ $czesc->Producent }}</td>
-                            <td>{{ $czesc->Numer_seryjny }}</td>
-                            <td>{{ $czesc->Ilość }}</td>
+                            <td>{{ $czesc->nazwa }}</td>
+                            <td>{{ $czesc->producent }}</td>
+                            <td>{{ $czesc->numer_seryjny }}</td>
+                            <td>{{ $czesc->ilosc }}</td>
                         </tr>
                     @endforeach
                 </table>
