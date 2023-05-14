@@ -93,7 +93,7 @@
                         <option value="skrzynia_biegow">Skrzynia biegów</option>
                     </select>
                 </div>
-                <button type="submit">Dodaj rekord</button>ó
+                <button type="submit">Dodaj rekord</button>
             </form>
 
 
